@@ -43,7 +43,7 @@
 
     <properties>
         <dropwizard.version>0.9.2</dropwizard.version>
-        <ribbon.version>2.1.2</ribbon.version>
+        <ribbon.version>2.4.0</ribbon.version>
         <rxjava.version>1.0.9</rxjava.version>
         <archaius.version>0.6.6</archaius.version>
     </properties>
@@ -260,7 +260,7 @@
                         <id>enforce</id>
                         <configuration>
                             <rules>
-                                <DependencyConvergence />
+                                <DependencyConvergence/>
                             </rules>
                         </configuration>
                         <goals>
